@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 150px;
+    width: 100vw;
+    background-color: darkcyan;
+    border: 2px solid black;
+}
+
+.box{
+    background-color: chartreuse;
+    border: 2px solid black;
+    height: 150px;
+    width:150px;
+
+    
+}
+
+.box:hover{
+    animation-name: babbar;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-direction: normal;
+}
+
+@keyframes babbar{
+    from{
+        width: 150px;
+    }
+    to{
+        width: 800px;
+    }
+}
+
+
+
+
+
